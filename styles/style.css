@@ -3,7 +3,7 @@
 @import url(./normalize.css) layer(reset);
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap') layer(init);
 
-@layer design {
+@layer init {
     :root {
         color-scheme: light dark;
         --header-bg-color: light-dark(#3e3b40, #3B3E40);
@@ -18,6 +18,9 @@
         font-size: 100%; /* default 16px */
         color: var(--text-color)
     }
+}
+
+@layer design {
     body {
         background-color: var(--bg-color);
     }
