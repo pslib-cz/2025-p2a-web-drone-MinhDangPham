@@ -11,6 +11,7 @@
         --primary-color: light-dark(#66D4D4, #2b5a5a);
         --secondary-color: light-dark(#fff, #fff);
         --text-color: light-dark(#000, #fff);
+        --secondary-text-color: light-dark(#fff, #fff);
         --bg-color: light-dark(#fff, #000);
     }
     html {
@@ -56,6 +57,7 @@
     }
     .header__intro {
         margin-top: 10vh;
+        text-align: left;
     }
     .button {
         border-radius: 0.5rem;
@@ -85,6 +87,13 @@
         
     }
     .card {
+        padding-bottom: 4rem;
+    }
+    .button1 {
+        background-color: var(--primary-color);
+        color: var(--secondary-text-color);
+    }
+    .provedeni {
         
     }
 }   
