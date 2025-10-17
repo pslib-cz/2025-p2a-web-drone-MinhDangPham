@@ -11,6 +11,7 @@
         --primary-color: light-dark(#66D4D4, #2b5a5a);
         --secondary-color: light-dark(#fff, #fff);
         --text-color: light-dark(#000, #fff);
+        --text-color-primary: light-dark(#fff, #fff);
         --secondary-text-color: light-dark(#fff, #fff);
         --bg-color: light-dark(#fff, #000);
     }
@@ -33,7 +34,7 @@
     }
     h1 {
         font-size: 4rem; /* 60 px default */
-        font-weight: 800; /* extra-bold */
+        font-weight: extra-bold; /* extra-bold */
     }
     .list {
 
@@ -92,18 +93,30 @@
         border-style: solid;
         border-color: var(--primary-color)
     }
+    .info-block info-block--jumbo {
+        background-color: var(--header-bg-color);
+        margin: 0;
+        padding: 2rem;
+        border: none;
+    }
     .heading {
         
     }
     .card {
-        padding-bottom: 4rem;
-        padding-right: 2em;
+        max-width: 20rem;
+        display: inline-block;
+        padding: 1em;
+        vertical-align: top;
     }
-    .button1 {
+    .button__primary {
         background-color: var(--primary-color);
         color: var(--secondary-text-color);
+        font-weight: bold;
     }
-    .provedeni1 {
-        display: flex;
+    .info-block__title{
+        font-weight: bold;
+    }
+    .heading--h1 {
+        font-size: calc(1em + 3vw);
     }
 }   
