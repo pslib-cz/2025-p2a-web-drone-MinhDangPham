@@ -35,8 +35,12 @@
         font-size: 4rem; /* 60 px default */
         font-weight: 800; /* extra-bold */
     }
-    li::marker {
-        color: var(--primary-color)
+    .list {
+
+    }
+    .list__item::marker {
+        margin-bottom: 1em;
+        color: var(--primary-color);
     }
     .img-fluid {
         display: block;
@@ -83,7 +87,7 @@
     }
     .info-block {
         margin: 0;
-        padding: 0.5rem;
+        padding: 2rem;
         border: 3px;
         border-style: solid;
         border-color: var(--primary-color)
@@ -93,12 +97,13 @@
     }
     .card {
         padding-bottom: 4rem;
+        padding-right: 2em;
     }
     .button1 {
         background-color: var(--primary-color);
         color: var(--secondary-text-color);
     }
-    .provedeni {
-        
+    .provedeni1 {
+        display: flex;
     }
 }   
