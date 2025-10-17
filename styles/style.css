@@ -24,10 +24,12 @@
 @layer design {
     body {
         background-color: var(--bg-color);
+        
     }
     main {
-        max-width: 960px ;
-        
+        margin: 0 auto;
+        max-width: 960px;
+        padding: 1rem;
     }
     h1 {
         font-size: 4rem; /* 60 px default */
@@ -47,6 +49,7 @@
         background-position: top left;
         background-color: var(--header-bg-color);
         color: var(--header-text-color);
+        line-height: 1.5;
         padding: 1em;
     }
     .header__nav {
@@ -58,6 +61,7 @@
     .header__intro {
         margin-top: 10vh;
         text-align: left;
+        padding: 2rem;
     }
     .button {
         border-radius: 0.5rem;
@@ -67,6 +71,7 @@
     .button--light {
         background-color: var(--secondary-color);
         color: var(--text-color);
+        font-weight: bold;
     }
     .img-block {
         margin: 0;
