@@ -114,10 +114,28 @@
         font-size: calc(1em + 3vw);
     }
     .info-block--jumbo {
+        text-align: center;
         background-color: var(--header-bg-color);
         margin: 0;
         padding: 2rem;
         border: none;
         color: var(--secondary-text-color);
+    }
+    .info-block__content {
+        padding-bottom: 1rem;
+    }
+    .gallery__item {
+        box-sizing: border-box;
+        width: calc(50% - 2em);
+        display: inline-block;
+        vertical-align: top;
+        margin: 1em;
+    }
+    .gallery__item--100w {
+        width: calc(100% - 2em);
+    }
+    .gallery {
+        box-sizing: border-box;
+        margin: -1em;
     }
 }   
