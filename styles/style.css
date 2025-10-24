@@ -93,12 +93,6 @@
         border-style: solid;
         border-color: var(--primary-color)
     }
-    .info-block info-block--jumbo {
-        background-color: var(--header-bg-color);
-        margin: 0;
-        padding: 2rem;
-        border: none;
-    }
     .heading {
         
     }
@@ -113,10 +107,17 @@
         color: var(--secondary-text-color);
         font-weight: bold;
     }
-    .info-block__title{
+    .info-block__title {
         font-weight: bold;
     }
     .heading--h1 {
         font-size: calc(1em + 3vw);
+    }
+    .info-block--jumbo {
+        background-color: var(--header-bg-color);
+        margin: 0;
+        padding: 2rem;
+        border: none;
+        color: var(--secondary-text-color);
     }
 }   
